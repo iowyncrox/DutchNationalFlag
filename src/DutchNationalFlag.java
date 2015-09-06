@@ -35,7 +35,7 @@ public class DutchNationalFlag {
 	}
 
 	public static void main(String[] args) {
-		int[] array = { 2, 0, 1, 2, 2, 0, 1, 0, 2, 0, 2, 1, 1, 2, 0, 1, 0, 2 };
+		int[] array = { 0, 1, 2, 1, 2, 0, 1, 2 };
 		segregateArray(array);
 		System.out.println(Arrays.toString(array));
 	}
